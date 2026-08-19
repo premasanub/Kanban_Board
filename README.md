@@ -79,4 +79,5 @@ Tasks are organized into three columns:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone :
+https://github.com/premasanub/Kanban_Board
