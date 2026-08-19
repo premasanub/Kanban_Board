@@ -81,3 +81,6 @@ Tasks are organized into three columns:
 ```bash
 git clone :
 https://github.com/premasanub/Kanban_Board
+
+````deployment link:
+https://kanban-board-jet-phi.vercel.app/
