@@ -1,16 +1,82 @@
-# React + Vite
+# 📋 Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Kanban-style Task Management Application** built using **React JS**, **Tailwind CSS**, **Context API**, and **dnd-kit**.
 
-Currently, two official plugins are available:
+The application allows users to create, edit, delete, view, and drag tasks between different status columns such as **To Do**, **In Progress**, and **Done**. Task data is stored in the browser's `localStorage`, so tasks remain available even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Netlify: `YOUR_NETLIFY_URL`
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 GitHub Repository
+
+🔗 GitHub: `YOUR_GITHUB_REPOSITORY_URL`
+
+---
+
+## ✨ Features
+
+### 📌 Task Management
+
+- Create new tasks
+- Edit existing tasks
+- Delete tasks
+- View complete task details
+- Set task priority
+- Add tags
+- Add deadlines
+
+### 🗂️ Kanban Board
+
+Tasks are organized into three columns:
+
+- 📝 To Do
+- 🔄 In Progress
+- ✅ Done
+
+### 🖱️ Drag and Drop
+
+- Drag tasks between columns
+- Move tasks from To Do → In Progress → Done
+- Smooth drag-and-drop interaction using `dnd-kit`
+
+### 💾 Local Storage
+
+- Tasks are automatically saved to `localStorage`
+- Data persists after browser refresh
+- No external backend or database required
+
+### 📱 Responsive Design
+
+- Desktop-friendly layout
+- Tablet support
+- Mobile responsive design
+- Built using Tailwind CSS
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React JS | Frontend development |
+| Tailwind CSS | UI styling |
+| Context API | Global task state management |
+| React Hooks | State and lifecycle management |
+| dnd-kit | Drag and drop functionality |
+| localStorage | Local data persistence |
+| React Icons | Icons and UI elements |
+| Vite | Development and build tool |
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
