@@ -100,5 +100,13 @@ export const TaskProvider = ({ children }) => {
 // export default useTasks;
 
 export const useTasks = () => {
-  return useContext(TaskContext);
+  const context = useContext(TaskContext);
+
+  if (!context) {
+    throw new Error(
+      "useTasks must be used inside TaskProvider"
+    );
+  }
+
+  return context;
 };

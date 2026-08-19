@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiX, FiTrash2 } from "react-icons/fi";
-import { useTasks } from "../context/TaskContext";
+import { useTasks } from "../Context/TaskContext";
 
 function TaskModal({ task, onClose }) {
   const { updateTask, deleteTask } = useTasks();
